@@ -68,6 +68,7 @@ master.menu.learner = Aprendiz
 master.menu.learner.view-dashboard = Panel de indicadores
 master.menu.learner.list-help-request = Solicitudes de ayuda
 master.menu.learner.list-follow-up = Seguimientos
+master.menu.learner.list-lusit = Listar lusits
 
 # master.menu.authenticated ####################################################
 

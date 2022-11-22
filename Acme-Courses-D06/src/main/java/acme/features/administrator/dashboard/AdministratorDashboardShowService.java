@@ -66,17 +66,17 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		List<Object> maximumBudgetOfDeniedHelpRequests;
 		
 		// Control Check
-		Double 		 ratioOfTheoryTutorialWithBlahblah;
-		List<Object> averageCostOfBlahblah;
-		List<Object> deviationCostOfBlahblah;
-		List<Object> minimumCostOfBlahblah;
-		List<Object> maximumCostOfBlahblah;
+		Double 		 ratioOfTheoryTutorialWithLusit;
+		List<Object> averageCostOfLusit;
+		List<Object> deviationCostOfLusit;
+		List<Object> minimumCostOfLusit;
+		List<Object> maximumCostOfLusit;
 		
-		ratioOfTheoryTutorialWithBlahblah = this.repository.ratioOfTheoryTutorialWithBlahblah();
-		averageCostOfBlahblah = this.repository.averageCostOfBlahblah();
-		deviationCostOfBlahblah = this.repository.deviationCostOfBlahblah();
-		minimumCostOfBlahblah = this.repository.minimumCostOfBlahblah();
-		maximumCostOfBlahblah = this.repository.maximumCostOfBlahblah();
+		ratioOfTheoryTutorialWithLusit = this.repository.ratioOfTheoryTutorialWithLusit();
+		averageCostOfLusit = this.repository.averageCostOfLusit();
+		deviationCostOfLusit = this.repository.deviationCostOfLusit();
+		minimumCostOfLusit = this.repository.minimumCostOfLusit();
+		maximumCostOfLusit = this.repository.maximumCostOfLusit();
 		
 		
 		totalNumberOfTheoryTutorials = this.repository.totalNumberOfTheoryTutorials();
@@ -142,12 +142,12 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		result.setMinimumBudgetOfDeniedHelpRequests(minimumBudgetOfDeniedHelpRequests);
 		result.setMaximumBudgetOfDeniedHelpRequests(maximumBudgetOfDeniedHelpRequests);
 		
-		//Control Check
-		result.setRatioOfTheoryTutorialWithBlahblah(ratioOfTheoryTutorialWithBlahblah);
-		result.setAverageCostOfBlahblah(averageCostOfBlahblah);
-		result.setDeviationCostOfBlahblah(deviationCostOfBlahblah);
-		result.setMinimumCostOfBlahblah(minimumCostOfBlahblah);
-		result.setMaximumCostOfBlahblah(maximumCostOfBlahblah);
+//		Control Check
+		result.setRatioOfTheoryTutorialWithLusit(ratioOfTheoryTutorialWithLusit);
+		result.setAverageCostOfLusit(averageCostOfLusit);
+		result.setDeviationCostOfLusit(deviationCostOfLusit);
+		result.setMinimumCostOfLusit(minimumCostOfLusit);
+		result.setMaximumCostOfLusit(maximumCostOfLusit);
 
 	
 		return result;
@@ -165,7 +165,7 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 									"averageBudgetOfProposedHelpRequests","deviationBudgetOfProposedHelpRequests","minimumBudgetOfProposedHelpRequests","maximumBudgetOfProposedHelpRequests",
 									"averageBudgetOfAcceptedHelpRequests","deviationBudgetOfAcceptedHelpRequests","minimumBudgetOfAcceptedHelpRequests","maximumBudgetOfAcceptedHelpRequests",
 									"averageBudgetOfDeniedHelpRequests","deviationBudgetOfDeniedHelpRequests","minimumBudgetOfDeniedHelpRequests","maximumBudgetOfDeniedHelpRequests",
-									"ratioOfTheoryTutorialWithBlahblah","averageCostOfBlahblah","deviationCostOfBlahblah","minimumCostOfBlahblah","maximumCostOfBlahblah"
+									"ratioOfTheoryTutorialWithLusit","averageCostOfLusit","deviationCostOfLusit","minimumCostOfLusit","maximumCostOfLusit"
 									
 			);
 	}

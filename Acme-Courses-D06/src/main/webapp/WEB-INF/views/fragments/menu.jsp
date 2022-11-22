@@ -67,7 +67,7 @@
 			<acme:menu-suboption code="master.menu.teacher.list-lab-tutorial" action="/teacher/lab-tutorial/list"/>
 			<acme:menu-suboption code="master.menu.teacher.list-help-request" action="/teacher/help-request/list"/>
 			<acme:menu-suboption code="master.menu.teacher.list-follow-up" action="/teacher/follow-up/list"/>
-			<acme:menu-suboption code="master.menu.teacher.list-blahblah" action="/teacher/blahblah/list"/>
+			
 			<acme:menu-separator/>
 		</acme:menu-option>
 		
@@ -75,6 +75,7 @@
 			<acme:menu-suboption code="master.menu.learner.view-dashboard" action="/learner/learner-dashboard/show"/>
 			<acme:menu-suboption code="master.menu.learner.list-help-request" action="/learner/help-request/list"/>
 			<acme:menu-suboption code="master.menu.learner.list-follow-up" action="/learner/follow-up/list"/>
+			<acme:menu-suboption code="master.menu.learner.list-lusit" action="/learner/lusit/list"/>
 		</acme:menu-option>
 	</acme:menu-left>
 

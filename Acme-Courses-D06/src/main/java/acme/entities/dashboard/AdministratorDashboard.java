@@ -64,14 +64,14 @@ public class AdministratorDashboard implements Serializable {
 	
 	// Control Check
 
-	Double						ratioOfTheoryTutorialWithBlahblah;
+	Double						ratioOfTheoryTutorialWithLusit;
 
-	List<Object> 				averageCostOfBlahblah;
+	List<Object> 				averageCostOfLusit;
 
-	List<Object> 				deviationCostOfBlahblah;
+	List<Object> 				deviationCostOfLusit;
 
-	List<Object> 				minimumCostOfBlahblah;
+	List<Object> 				minimumCostOfLusit;
 
-	List<Object> 				maximumCostOfBlahblah;
+	List<Object> 				maximumCostOfLusit;
 
 }

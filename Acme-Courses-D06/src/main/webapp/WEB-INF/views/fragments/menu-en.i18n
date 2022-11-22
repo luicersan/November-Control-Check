@@ -68,6 +68,7 @@ master.menu.learner = Learner
 master.menu.learner.view-dashboard = Dashboard
 master.menu.learner.list-help-request = Help requests
 master.menu.learner.list-follow-up = Follow ups
+master.menu.learner.list-lusit = List lusits
 
 
 # master.menu.authenticated ####################################################

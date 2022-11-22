@@ -192,34 +192,34 @@
 <table class="table table-sm">	
 	<tr>
 		<th scope="row"><acme:message
-				code="administrator.dashboard.form.label.ratioOfTheoryTutorialWithBlahblah" /></th>
-		<td><acme:print value="${ratioOfTheoryTutorialWithBlahblah}" /></td>
+				code="administrator.dashboard.form.label.ratioOfTheoryTutorialWithLusit" /></th>
+		<td><acme:print value="${ratioOfTheoryTutorialWithLusit}" /></td>
 	</tr>
 			<tr>
 		<th scope="row"><acme:message
-				code="administrator.dashboard.form.label.averageCostOfBlahblah" /></th>
-		<jstl:forEach var="prices" items="${averageCostOfBlahblah}">
+				code="administrator.dashboard.form.label.averageCostOfLusit" /></th>
+		<jstl:forEach var="prices" items="${averageCostOfLusit}">
 			<td><acme:print value="${prices}" /></td>
 		</jstl:forEach>
 	</tr>
 	<tr>
 		<th scope="row"><acme:message
-				code="administrator.dashboard.form.label.deviationCostOfBlahblah" /></th>
-		<jstl:forEach var="prices" items="${deviationCostOfBlahblah}">
+				code="administrator.dashboard.form.label.deviationCostOfLusit" /></th>
+		<jstl:forEach var="prices" items="${deviationCostOfLusit}">
 			<td><acme:print value="${prices}" /></td>
 		</jstl:forEach>
 	</tr>
 	<tr>
 		<th scope="row"><acme:message
-				code="administrator.dashboard.form.label.minimumCostOfBlahblah" /></th>
-		<jstl:forEach var="prices" items="${minimumCostOfBlahblah}">
+				code="administrator.dashboard.form.label.minimumCostOfLusit" /></th>
+		<jstl:forEach var="prices" items="${minimumCostOfLusit}">
 			<td><acme:print value="${prices}" /></td>
 		</jstl:forEach>
 	</tr>
 	<tr>
 		<th scope="row"><acme:message
-				code="administrator.dashboard.form.label.maximumCostOfBlahblah" /></th>
-		<jstl:forEach var="prices" items="${maximumCostOfBlahblah}">
+				code="administrator.dashboard.form.label.maximumCostOfLusit" /></th>
+		<jstl:forEach var="prices" items="${maximumCostOfLusit}">
 			<td><acme:print value="${prices}" /></td>
 		</jstl:forEach>
 	</tr>

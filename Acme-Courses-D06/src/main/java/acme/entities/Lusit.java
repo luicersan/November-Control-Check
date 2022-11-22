@@ -24,7 +24,7 @@ import lombok.Setter;
 @Getter
 @Setter
 
-public class Blahblah extends AbstractEntity {
+public class Lusit extends AbstractEntity {
 	
 	// Serialisation identifier -----------------------------------------------
 	
@@ -35,27 +35,28 @@ public class Blahblah extends AbstractEntity {
 	@NotBlank
 	@Column(unique = true)
 	@Pattern(regexp = "^\\w{3}-\\d{6}$")
-	protected String ticker;
+//	@Pattern(regexp = "^\\w{5}.\\d{2}-\\w{2}_\\d{2}:d{2}$")	
+	protected String iname;
 	
 	@NotBlank
 	@Length(max = 75)
-	protected String caption;
+	protected String logo;
 
 	@NotBlank
 	@Length(max = 255)
-	protected String summary;
+	protected String description;
 
 	@NotNull
 	@Valid
-	protected Money cost; 
+	protected Money budget; 
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	@NotNull
-	protected Date creationMoment;
+	protected Date initialDate;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@NotNull
-	protected Date initDate;
+	protected Date beginDate;
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	@NotNull
@@ -70,5 +71,10 @@ public class Blahblah extends AbstractEntity {
 	@Valid
 	@ManyToOne(optional=false)
 	protected TheoryTutorial theoryTutorial;
+	
+//	@NotNull
+//	@Valid
+//	@ManyToOne(optional=false)
+//	protected LabTutorial labTutorial;
 	
 }

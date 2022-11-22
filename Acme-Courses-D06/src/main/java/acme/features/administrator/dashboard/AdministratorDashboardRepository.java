@@ -93,19 +93,19 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	List<Object> maximumBudgetOfDeniedHelpRequests();
 	
 	// CONTROL CHECK
-	@Query("select 1.0 * count(b) / (select count(t2) from TheoryTutorial t2) from Blahblah b where b.theoryTutorial is not null")
-	Double ratioOfTheoryTutorialWithBlahblah();
+	@Query("select 1.0 * count(b) / (select count(t2) from TheoryTutorial t2) from Lusit b where b.theoryTutorial is not null")
+	Double ratioOfTheoryTutorialWithLusit();
 		
-	@Query("select avg(b.cost.amount), b.cost.currency from Blahblah b group by b.cost.currency")
-	List<Object> averageCostOfBlahblah();
+	@Query("select avg(b.budget.amount), b.budget.currency from Lusit b group by b.budget.currency")
+	List<Object> averageCostOfLusit();
 
-	@Query("select stddev(b.cost.amount), b.cost.currency from Blahblah b group by b.cost.currency")
-	List<Object> deviationCostOfBlahblah();
+	@Query("select stddev(b.budget.amount), b.budget.currency from Lusit b group by b.budget.currency")
+	List<Object> deviationCostOfLusit();
 
-	@Query("select min(b.cost.amount), b.cost.currency from Blahblah b group by b.cost.currency")
-	List<Object> minimumCostOfBlahblah();
+	@Query("select min(b.budget.amount), b.budget.currency from Lusit b group by b.budget.currency")
+	List<Object> minimumCostOfLusit();
 		
-	@Query("select max(b.cost.amount), b.cost.currency from Blahblah b group by b.cost.currency")
-	List<Object> maximumCostOfBlahblah();
+	@Query("select max(b.budget.amount), b.budget.currency from Lusit b group by b.budget.currency")
+	List<Object> maximumCostOfLusit();
 	
 }

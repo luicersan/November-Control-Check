@@ -17,7 +17,7 @@
 
 <acme:form>
 	<acme:input-textbox readonly="true" code="teacher.blahblah.form.label.ticker" path="ticker"/>
-	<acme:input-moment readonly="true" code="teacher.follow-up.form.label.instantiation-moment" path="instantiationMoment"/>
+	<acme:input-moment readonly="true" code="teacher.follow-up.form.label.creation-moment" path="creationMoment"/>
 	<acme:input-textarea code="teacher.blahblah.form.label.caption" path="caption"/>
 	<acme:input-textarea code="teacher.blahblah.form.label.summary" path="summary"/>
 	<acme:input-moment code="teacher.blahblah.form.label.initDate" path="initDate"/>
