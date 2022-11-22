@@ -1,0 +1,25 @@
+# i18n-es.i18n
+#
+# Copyright (C) 2012-2022 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+any.blink.form.label.instantiation-moment = Momento de creacion:
+any.blink.form.label.caption = Titulo:
+any.blink.form.label.author-alias = Autor:
+any.blink.form.label.message = Mensaje:
+any.blink.form.label.email = Correo electronico:
+any.blink.form.button.create = Crear noticia
+
+any.blink.form.label.confirmation = Las noticias no se pueden actualizar ni borrar, confirma que la noticia es correcta
+
+any.blink.list.label.instantiation-moment = Momento de creacion
+any.blink.list.label.author-alias = Alias del autor
+any.blink.list.label.caption = Titulo
+
+any.blink.list.button.create = Crear noticia
+
